@@ -17,8 +17,10 @@ const gameEl = document.getElementById("game");
 // - lägg till id = index på card elementet så att du kommer åt det senare
 // - använd appendChild för att lägga till kortet till gameEl
 
-// 3. Använd for-loop eller forEach för att loopa igenom alla cards och anrop funktionen
-//    createCard med varje kort och varje index (i). Nu ska alla kort synas på sidan
+// 3. Använd for-loop eller forEach för att loopa igenom alla cards och anropa funktionen
+//    createCard med varje kort och varje index (i). Nu ska alla kort synas på sidan.
+//    Om du använder forEach måste du lägga till i som andra paremeter i arrow-function.
+//    Då räknar i:et från 0 och uppåt
 
 // 4. Lägg till addEventListner på korten i funktionen createCard. När man klickar ska
 // kortet ändras från showing: false till showing:true
