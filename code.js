@@ -1,5 +1,7 @@
 import { cards } from "./cards.js";
 const gameEl = document.getElementById("game");
+let lastCard;
+let lastCardEl;
 
 // 1. En array med alla kort-objekt är importerade och ligger i cards. Med forEach Lägg till en property
 //    showing: false till varje kort för att hålla reda på om kortet visas eller inte.
