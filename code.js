@@ -1,13 +1,11 @@
 import { cards } from "./cards.js";
 const gameEl = document.getElementById("game");
 
-// const backsideFile = "backside.png";
-
-// 1. Med forEach Lägg till en property showing: false till varje kort
-// för att hålla reda på om kortet är visas eller inte.
+// 1. En array med alla kort-objekt är importerade och ligger i cards. Med forEach Lägg till en property
+//    showing: false till varje kort för att hålla reda på om kortet visas eller inte.
 
 // 2. Skapa en funktion createCard. Som tar ett card-objekt och ett index som input och skapar
-// ett img element och lägger till det på sidan i gameEl. Gör så här:
+//    ett img element och lägger till det på sidan i gameEl. Gör så här:
 // - skapa ett ett img-element med document.createElement("img")
 // - sätt attribut med setAttribute på img-elementet ange tex:
 //    imgElement.setAttrubut("src", "images/backside.png") för baksidan på kortet.
@@ -23,9 +21,9 @@ const gameEl = document.getElementById("game");
 //    Då räknar i:et från 0 och uppåt
 
 // 4. Lägg till addEventListner på korten i funktionen createCard. När man klickar ska
-// kortet ändras från showing: false till showing:true
+//    kortet ändras från showing: false till showing:true
 
-// 5 Använd en global variabel lastCard och lastCardEl för att hålla reda på vilket kort man klickade på senast
-// kolla när man klickar på ett kort om det har samma värde som lastCard (card.num)
+// 5 Använd en global variabel lastCard och lastCardEl för att hålla reda på vilket kort man klickade på senast.
+//   kolla när man klickar på ett kort om det har samma värde som lastCard (card.num)
 
 // 6 (Ganska svårt) Få ihop hela spelet med det du skrivit ovan.
