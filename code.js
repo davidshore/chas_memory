@@ -28,4 +28,4 @@ const gameEl = document.getElementById("game");
 // 5 Använd en global variabel lastCard och lastCardEl för att hålla reda på vilket kort man klickade på senast
 // kolla när man klickar på ett kort om det har samma värde som lastCard (card.num)
 
-// 6 (Ganska svårt) FÅ ihop hela spelet med det du skrivit ovan.
+// 6 (Ganska svårt) Få ihop hela spelet med det du skrivit ovan.
