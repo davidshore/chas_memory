@@ -11,7 +11,7 @@ const gameEl = document.getElementById("game");
 // - skapa ett ett img-element med document.createElement("img")
 // - sätt attribut med setAttribute på img-elementet ange tex:
 //    imgElement.setAttrubut("src", "images/backside.png") för baksidan på kortet.
-//    om card.showing är true använd card.file annars använd images/backside.png
+//    om card.showing är true använd `images/${card.file}` annars använd "images/backside.png"
 // - lägg till width och height till imgElementet
 //    width ska vara 100 och height ska vara 145
 // - lägg till id = index på card elementet så att du kommer åt det senare
